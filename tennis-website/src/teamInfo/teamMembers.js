@@ -9,7 +9,7 @@ export const teamMembers = [
     {
         name: 'Jacob Wald',
         major: 'Computer Science',
-        description: 'Jacob is a third year....',
+        description: 'Jacob is a third year majoring in Computer Science from Tacoma, Washington. Wheelchair tennis introduced him to adaptive sports when he joined the team in the beginning of his second year. Since then, he has fallen in love with the competitive nature of the sport. ',
         imageUrl: '/images/jacob.jpg',
     },
     {

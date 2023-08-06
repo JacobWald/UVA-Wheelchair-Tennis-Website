@@ -3,4 +3,55 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: var(--uva-orange);
+    color: var(--white);
+    font-size: 20px;
 }
+  
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    padding: 20px;
+    margin: auto;
+}
+  
+.slider {
+    overflow: hidden;
+    position: relative;
+    width: 100%;}
+  
+.slide-wrapper {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+  
+.slide {
+    flex: 0 0 100%;
+}
+  
+.full-image {
+    width: 100%;
+    height: auto;
+}
+  
+.dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.dot {
+    width: 12px;
+    height: 12px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin: 0 0.5rem;
+    cursor: pointer;
+}
+  
+.dot.active {
+    background-color: #333;
+}
+  

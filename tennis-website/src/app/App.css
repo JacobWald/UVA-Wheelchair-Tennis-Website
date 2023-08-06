@@ -44,14 +44,14 @@ p, h1, h2, h3, h4, h5, h6 {
   --uva-orange: #F84C1E;
   --white: #FFFFFF;
 
-  --font-family: 'Montserrat', sans-serif;
+  --font-family: 'Bebas Neue', sans-serif;
   --font-weight: 400; /* change to your font weight */
   /* --font-style: some-font-style; change to your font style */
 }
 
 *{
   /* applies your font, font-weight and font-style to all elements */
-  font-family: 'Montserrat', sans-serif !important;
+  font-family: 'Bebas Neue', sans-serif !important;
   font-weight: var(--font-weight);
   /* font-style: var(--font-style); */
 }

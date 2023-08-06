@@ -7,7 +7,7 @@ export default function MeetTheTeamPage() {
   return (
     <Container maxWidth="lg" sx={{ paddingTop: 4, paddingBottom: 4 }}>
       <Typography variant="h3" align="center" gutterBottom>
-        The UVA Wheelchair Tennis Team
+        Meet The UVA Wheelchair Tennis Team
       </Typography>
       <Grid container spacing={3} justifyContent="center">
         {teamMembers.map((teamMember) => (
