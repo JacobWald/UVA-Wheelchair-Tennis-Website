@@ -6,7 +6,7 @@ import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
 
 export default function HomePage() {
   const images = [
-    "./images/fullTeam.jpg",
+    "./images/homePage/fullTeam.jpg",
     "./images/homePage/masonSwing.jpg",
     "./images/homePage/josephScott.jpg",
     "./images/homePage/brianJosephJacobNationals.jpg",
@@ -47,17 +47,17 @@ export default function HomePage() {
               ))}
             </div>
           </div>
-        </div>
-        <div className='dots'>
-            <ChevronLeftIcon className='left-arrow' onClick={() => goToImage((currentImageIndex - 1 + images.length) % images.length)} />
+      </div>
+      <div className='dots'>
+          <ChevronLeftIcon className='left-arrow' onClick={() => goToImage((currentImageIndex - 1 + images.length) % images.length)} />
             {images.map((_, index) => (
               <div
                 key={index}
                 className={`dot ${currentImageIndex === index ? 'active' : ''}`}
               />
             ))}
-            <ChevronRightIcon className='right-arrow' onClick={() => goToImage((currentImageIndex + 1) % images.length)} />
-          </div>
+          <ChevronRightIcon className='right-arrow' onClick={() => goToImage((currentImageIndex + 1) % images.length)} />
+      </div>
     </>
   );
 }
