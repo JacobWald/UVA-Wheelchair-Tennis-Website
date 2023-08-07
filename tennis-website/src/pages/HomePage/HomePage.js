@@ -7,8 +7,10 @@ import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
 export default function HomePage() {
   const images = [
     "./images/fullTeam.jpg",
-    "./images/jacob.jpg",
-    "./images/mason.jpg",
+    "./images/homePage/masonSwing.jpg",
+    "./images/homePage/josephScott.jpg",
+    "./images/homePage/brianJosephJacobNationals.jpg",
+    "./images/homePage/vtech.jpg",
 
   ];
 
