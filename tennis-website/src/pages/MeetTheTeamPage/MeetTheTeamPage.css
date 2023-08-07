@@ -1,6 +1,13 @@
-.meet-the-team-page {
+.meetTheTeam-page {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: var(--uva-orange);
+    color: var(--white);
+    font-size: 20px;
+}
+
+.body {
+    color: var(--uva-dark-blue);
 }
