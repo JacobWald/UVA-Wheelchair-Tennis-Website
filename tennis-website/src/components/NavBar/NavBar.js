@@ -28,6 +28,11 @@ export default function NavBar() {
                             Accomplishments
                         </Button>
                     </Link>
+                    <Link to="/schedule">
+                        <Button>
+                            Schedule
+                        </Button>
+                    </Link>
                 </div>
                 <div className="navbar-right">
                     <img src="./images/sabers.svg" alt="UVA Sabers SVG" className="sabers-logo"/>
