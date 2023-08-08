@@ -1,6 +1,61 @@
 .about-page {
     display: flex;
     flex-direction: column;
+    color: var(--white);
     align-items: center;
     justify-content: center;
+}
+
+.our-story {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 0;
+    margin-left: auto;
+    width: 75%;
+    background-color: var(--uva-dark-blue);
+    border: 10px solid var(--uva-orange);
+}
+
+.the-need {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: auto;
+    margin-left: 0;
+    width: 75%;
+    background-color: var(--uva-dark-blue);
+    border: 10px solid var(--uva-orange);
+}
+
+.left-image {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: 20px;
+    width: 250%;
+    height: 250%;
+}
+
+.left-text {
+    margin-right: 50px;
+    margin-left: 20px;
+}
+
+.right-image {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: auto;
+}
+
+.right-text {
+    margin-right: 20px;
+    margin-left: 50px;
 }

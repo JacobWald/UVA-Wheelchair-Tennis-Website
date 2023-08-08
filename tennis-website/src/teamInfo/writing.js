@@ -1,0 +1,4 @@
+export const text = {
+    ourStory: "The UVA Tennis team began...", 
+    theNeed: "As a powerhouse in collegiate athletics and renowned academic institution, the University of Virginia (UVA) stands tall among its peers. Yet, we saw an opportunity to enrich its legacy even further by embracing the spirit of inclusion and accessibility through the creation of an adaptive sports program. We believe that in the future, a comprehensive adaptive sports program would open doors for students with disabilities, providing them with opportunities to thrive athletically, academically, and socially. And by promoting inclusive sports, UVA can foster a culture of diversity and respect, reflecting its values as a forward-thinking institution dedicated to the holistic growth of its student body. The UVA Wheelchair Tennis Team is the first step in this journey."
+}
