@@ -20,7 +20,9 @@ export default function MeetTheTeamPage() {
                   padding: 3,
                   textAlign: 'center',
                   marginBottom: 4,
-                  color: 'var(--uva-dark-blue)'
+                  color: 'var(--white)',
+                  backgroundColor: 'var(--uva-dark-blue)',
+                  border: '5px solid var(--uva-orange)'
                 }}
               >
                 <div
