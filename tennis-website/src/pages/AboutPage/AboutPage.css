@@ -4,7 +4,6 @@
     color: var(--white);
     align-items: center;
     justify-content: center;
-    background-color: var(--uva-orange);
 }
 
 .our-story {
@@ -18,6 +17,7 @@
     margin-left: auto;
     width: 75%;
     background-color: var(--uva-dark-blue);
+    border: 10px solid var(--uva-orange);
 }
 
 .the-need {
@@ -31,6 +31,7 @@
     margin-left: 0;
     width: 75%;
     background-color: var(--uva-dark-blue);
+    border: 10px solid var(--uva-orange);
 }
 
 .left-image {
