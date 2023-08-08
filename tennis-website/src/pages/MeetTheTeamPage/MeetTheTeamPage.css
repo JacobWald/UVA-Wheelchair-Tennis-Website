@@ -11,3 +11,7 @@
 .body {
     color: var(--uva-dark-blue);
 }
+
+.info {
+    font-family: var(--font-secondary) !important;
+}

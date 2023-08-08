@@ -7,7 +7,7 @@ export default function AboutPage() {
             <div className='our-story'>
                 <div className='left-text'>
                     <h1>Our Story</h1>
-                    <p>{text.ourStory}</p>
+                    <p className="info">{text.ourStory}</p>
                 </div>
                 <div className='right-image'>
                     <img src='/images/aboutPage/masonCat.jpg' alt='Mason and Cat' />
@@ -19,7 +19,7 @@ export default function AboutPage() {
                 </div>
                 <div className='right-text'>
                     <h1>The Need</h1>
-                    <p>{text.theNeed}</p>
+                    <p className="info">{text.theNeed}</p>
                 </div>
             </div>
         </div>

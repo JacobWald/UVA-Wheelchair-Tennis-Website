@@ -45,6 +45,7 @@ p, h1, h2, h3, h4, h5, h6 {
   --white: #FFFFFF;
 
   --font-family: 'Bebas Neue', sans-serif;
+  --font-secondary: 'Montserrat', sans-serif;
   --font-weight: 400; /* change to your font weight */
   /* --font-style: some-font-style; change to your font style */
 }

@@ -31,6 +31,7 @@ export default function MeetTheTeamPage() {
                     height: '200px',
                     overflow: 'hidden', 
                     boxShadow: '0 3px 6px rgba(0, 0, 0, 0.16)',
+                    marginBottom: '10px',
                   }}
                 >
                   <img
@@ -43,10 +44,10 @@ export default function MeetTheTeamPage() {
                     }}
                   />
                 </div>
-                <Typography variant="h6" gutterBottom>
+                <Typography variant="h5" gutterBottom>
                   {teamMember.name}
                 </Typography>
-                <Typography variant="body1">{teamMember.description}</Typography>
+                <Typography variant="body1" className='info'>{teamMember.description}</Typography>
               </Paper>
             </Grid>
           ))}
