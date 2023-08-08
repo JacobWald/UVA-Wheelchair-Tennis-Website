@@ -16,7 +16,7 @@
     margin-bottom: 50px;
     margin-right: 0;
     margin-left: auto;
-    width: 70%;
+    width: 75%;
     background-color: var(--uva-dark-blue);
 }
 
@@ -29,13 +29,17 @@
     margin-bottom: 50px;
     margin-right: auto;
     margin-left: 0;
-    width: 70%;
+    width: 75%;
     background-color: var(--uva-dark-blue);
 }
 
 .left-image {
+    margin-top: 20px;
+    margin-bottom: 20px;
     margin-right: auto;
     margin-left: 20px;
+    width: 250%;
+    height: 250%;
 }
 
 .left-text {
