@@ -1,0 +1,47 @@
+export const tournaments = [
+    {
+        name: 'Deleware Wheelchair Tennis Championships',
+        date: 'Sep. 22-24',
+        location: 'Wilmington, DE',
+        director: 'Kathryn Herel',
+        level: 'USTA Level 4 / ITF Level N/A',
+        month: 'September',
+        going: false,
+    },
+    {
+        name: 'Lost Mountain Wheelchair Championships',
+        date: 'Sep. 22-24',
+        location: 'Powder Springs, GA',
+        director: 'Tony Oswald',
+        level: 'USTA Level 3 / ITF Level N/A',
+        month: 'September',
+        going: true,
+    },
+    {
+        name: 'JTCC Wheelchair Championships',
+        date: 'Oct. 13-15',
+        location: 'College Park, MD',
+        director: 'Gabby Hesse',
+        level: 'USTA Level 4 / ITF Level N/A',
+        month: 'October',
+        going: true,
+    },
+    {
+        name: 'America Championships (Adult National Championships)',
+        date: 'Nov. 16-19',
+        location: 'McDonough, GA',
+        director: 'Harlon Matthews',
+        level: 'USTA Level 1 / ITF Level N/A',
+        month: 'November',
+        going: true,
+    },
+    {
+        name: 'The Piedmont Area Tennis Association Wheelchair Tennis Open',
+        date: 'Dec. 15-17',
+        location: 'Charlottesville, VA',
+        director: 'Catherine DeSouza',
+        level: 'USTA Level 3 / ITF Level N/A',
+        month: 'December',
+        going: true,
+    }
+];

@@ -3,7 +3,10 @@ import { text } from "../../teamInfo/writing.js";
 
 export default function AboutPage() {
     return (
-        <div className='about-page'>
+        <>
+            <div className='about-page'>
+                <h1>About</h1>
+            </div>
             <div className='our-story'>
                 <div className='left-text'>
                     <h1>Our Story</h1>
@@ -22,6 +25,6 @@ export default function AboutPage() {
                     <p className="info">{text.theNeed}</p>
                 </div>
             </div>
-        </div>
+        </>
     );
 }
