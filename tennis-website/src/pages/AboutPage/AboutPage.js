@@ -25,6 +25,27 @@ export default function AboutPage() {
                     <p className="info">{text.theNeed}</p>
                 </div>
             </div>
+            <div className='support'>
+                <div className= 'support-title'>
+                    <h1>Support The Team</h1>
+                </div>
+                <div className="links">
+                    <div>
+                        <a href="#" class="button-link">
+                            <img src="./images/instagram.svg" alt="Instagram SVG" className="icon"/>
+                            Instagram
+                        </a>
+                        <a href="#" class="button-link">
+                            {/* <img src="./images/sabers.svg" alt="GoFundMe SVG" className="icon"/> */}
+                            GoFundMe
+                        </a>
+                        <a href="#" class="button-link">
+                            <img src="./images/mail.svg" alt="Mail SVG" className="icon"/>
+                            Contact Us
+                        </a>
+                    </div>
+                </div>
+            </div>
         </>
     );
 }

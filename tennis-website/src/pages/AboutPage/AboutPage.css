@@ -40,6 +40,15 @@
     border: 5px solid var(--uva-orange);
 }
 
+.support {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    width: 100%;
+}
+
 .left-image {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -68,4 +77,48 @@
 
 .info {
     font-family: var(--font-secondary) !important;
+}
+
+.support-title {
+    background-color: var(--uva-orange);
+    text-align: center;
+    width: 100%;
+    margin-right: 50px;
+    margin-left: 50px;
+    color: var(--white);
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: var(--white);
+    /* background-color: var(--uva-dark-blue); */
+    /* border: 5px solid var(--uva-orange); */
+}
+
+.button-link {
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 20px;
+    background-color: var(--uva-dark-blue);
+    color: var(--white);
+    text-decoration: none;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* .button-link:hover {
+    background-color: #0056b3;
+} */
+
+.icon {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    margin-right: 10px;
+    /* Add any desired styles for the SVG icon */
 }
