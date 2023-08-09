@@ -38,20 +38,25 @@ export default function SchedulePage() {
     }, [term, search, termFilteredTournaments]);
 
     return (
-        <div className='schedule-page'>
-            <div className="title">
-                <Typography variant="h3" gutterBottom>Fall 2023 Tournament Schedule</Typography>
+        <>
+            <div className='schedule-page'>
+                <h1>Fall 2023 Tournament Schedule</h1>
             </div>
             <div className="search-bar">
-                <SearchIcon sx={{ marginRight: "5px", fontSize: 30 }}></SearchIcon>
+                <SearchIcon sx={{ marginRight: "5px", fontSize: 40, color: "var(--uva-dark-blue)" }}></SearchIcon>
                 <TextField
                     value={search}
-                    placeholder="Find in top songs"
+                    placeholder="Find Tournament"
                     onChange={(event) => handleSearch(event)}
-                    sx={{ marginRight: "10px", width: "200%"}}
+                    sx={{ marginRight: "10px", width: "25%", backgroundColor: "var(--uva-dark-blue)",     
+                    color: "var(--white)",
+                        '& input': {
+                        color: 'var(--white)', 
+                        },
+                    }}
                 ></TextField>
-                <FormControl style={{ width: "200%" }}>
-                    <InputLabel id="demo-simple-select-label">
+                <FormControl sx={{ width: "25%" }}>
+                    <InputLabel id="demo-simple-select-label" sx={{ color: "var(--uva-orange)" }}>
                         Month
                     </InputLabel>
                     <Select
@@ -60,6 +65,7 @@ export default function SchedulePage() {
                         value={term}
                         label="Month"
                         onChange={(e) => setTerm(e.target.value)}
+                        sx={{ backgroundColor: "var(--uva-dark-blue)", color: "var(--white)" }}
                     >
                         {terms.map((term) => (
                         <MenuItem key={term} value={term}>
@@ -97,6 +103,6 @@ export default function SchedulePage() {
                     ))}
                 </Grid>
             </Container>
-        </div>
+        </>
     );
 }

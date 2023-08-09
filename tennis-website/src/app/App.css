@@ -56,3 +56,13 @@ p, h1, h2, h3, h4, h5, h6 {
   font-weight: var(--font-weight);
   /* font-style: var(--font-style); */
 }
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1;
+}

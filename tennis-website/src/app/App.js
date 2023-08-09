@@ -12,22 +12,20 @@ import SchedulePage from '../pages/SchedulePage/SchedulePage';
 
 export default function App() {
   return (
-    <>
-      <div>
+    <div className="app">
+      <div className="content">
         <Routes>
           <Route path="/" element={<BasicOutline />}>
-              <Route path="/" index element={<HomePage />} />
-              <Route path="about" element={<AboutPage />} />
-              <Route path="meetTheTeam" element={<MeetTheTeamPage />} />
-              <Route path="accomplishments" element={<AccomplishmentsPage />} />
-              <Route path="schedule" element={<SchedulePage />} />
-              <Route path="*" element={<h1>Not Found</h1>} />
+            <Route path="/" index element={<HomePage />} />
+            <Route path="about" element={<AboutPage />} />
+            <Route path="meetTheTeam" element={<MeetTheTeamPage />} />
+            <Route path="accomplishments" element={<AccomplishmentsPage />} />
+            <Route path="schedule" element={<SchedulePage />} />
+            <Route path="*" element={<h1>Not Found</h1>} />
           </Route>
         </Routes>
       </div>
-      <div>
-        <Footer />
-      </div>
-    </>
+      <Footer />
+    </div>
   );
 }
