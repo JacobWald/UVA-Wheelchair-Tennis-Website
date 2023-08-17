@@ -49,6 +49,8 @@
 }
 
 .left-text {
+    margin-top: 10px;
+    margin-bottom: 10px;
     margin-right: 50px;
     margin-left: 20px;
 }
@@ -61,6 +63,8 @@
 }
 
 .right-text {
+    margin-top: 10px;
+    margin-bottom: 10px;
     margin-right: 20px;
     margin-left: 50px;
 }
