@@ -18,7 +18,6 @@ export default function SchedulePage() {
     const [term, setTerm] = useState("All");
     const [search, setSearch] = useState("");
     const [filteredTournaments, setFilteredTournaments] = useState(tournaments);
-    const [termFilteredTournaments, setTermFilteredTournaments] = useState(tournaments);
 
     const terms = ["All", "September", "October", "November", "December"];
 
@@ -27,7 +26,7 @@ export default function SchedulePage() {
     }
 
     useEffect(() => {
-        const filtered = termFilteredTournaments.filter((tournament) => {
+        const filtered = tournaments.filter((tournament) => {
             return (
                 (term === "All" || tournament.month === term) &&
                 tournament.name.toLowerCase().includes(search.toLowerCase()) &&
@@ -35,7 +34,7 @@ export default function SchedulePage() {
             );
         });
         setFilteredTournaments(filtered);
-    }, [term, search, termFilteredTournaments]);
+    }, [term, search]);
 
     return (
         <>

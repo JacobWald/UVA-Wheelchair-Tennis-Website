@@ -17,7 +17,7 @@ export default function AboutPage() {
                     GoFundMe
                 </a>
                 <a href="mailto:vug5ue@virginia.edu" class="button-link">
-                    <img src="./images/mail.svg" alt="Mail SVG" className="icon"/>
+                    <img src="./images/mail.svg" alt="Mail SVG" className="icon" style={{ filter: "invert(1)" }}/>
                     Contact Us
                 </a>
             </div>
