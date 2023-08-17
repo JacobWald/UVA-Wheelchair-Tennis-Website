@@ -34,7 +34,7 @@
 }
   
 .full-image {
-    width: 100%;
+    width: auto;
     height: auto;
 }
   
@@ -56,5 +56,11 @@
   
 .dot.active {
     background-color: #333;
+}
+
+@media only screen and (width < 895px) {
+    .body {
+        width: 100%;
+    }
 }
   
