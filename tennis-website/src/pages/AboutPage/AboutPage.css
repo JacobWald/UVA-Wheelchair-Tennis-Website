@@ -71,6 +71,7 @@
 
 .links {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
     justify-content: center;
@@ -90,6 +91,7 @@
     font-size: 20px;
     margin: 10px;
     transition: background-color 0.3s ease;
+    white-space: nowrap;
 }
 
 .button-link:hover {
@@ -102,10 +104,4 @@
     height: 28px;
     vertical-align: middle;
     margin-right: 15px;
-}
-
-@media only screen and (max-width: 895px) {
-    .icon {
-        display: none;
-    }
 }
