@@ -3,6 +3,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
     background-color: var(--uva-orange);
     color: var(--white);
     font-size: 20px;
