@@ -8,11 +8,11 @@ export default function AboutPage() {
                 <h1>About</h1>
             </div>
             <div className="links">
-                <a href="https://www.instagram.com/uva_wheelchair_tennis/" class="button-link">
+                <a href="https://www.instagram.com/uva_wheelchair_tennis/" class="button-link" target="_blank" rel="noopener noreferrer">
                     <img src="./images/instagram.svg" alt="Instagram SVG" className="icon"/>
                     Instagram
                 </a>
-                <a href="https://www.gofundme.com/f/the-wheelchair-tennis-team-at-uva?utm_medium=referral&utm_source=widget&utm_campaign=p_cp%2Bshare-sheet" class="button-link">
+                <a href="https://www.gofundme.com/f/the-wheelchair-tennis-team-at-uva?utm_medium=referral&utm_source=widget&utm_campaign=p_cp%2Bshare-sheet" class="button-link" target="_blank" rel="noopener noreferrer">
                     {/* <img src="./images/sabers.svg" alt="GoFundMe SVG" className="icon"/> */}
                     GoFundMe
                 </a>
