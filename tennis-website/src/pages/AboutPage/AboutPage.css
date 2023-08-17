@@ -109,3 +109,45 @@
     vertical-align: middle;
     margin-right: 15px;
 }
+
+@media screen and (max-width: 895px) {
+    .our-story {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: auto;
+        margin: 10px;
+    }
+
+    .right-image {
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 20px;
+    }
+
+    .left-text {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .the-need {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: auto;
+        margin: 10px;
+    }
+
+    .left-image {
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        width: auto;
+    }
+
+    .right-text {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    
+}
