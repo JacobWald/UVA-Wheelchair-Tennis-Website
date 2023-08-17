@@ -79,7 +79,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin-top: 25px;
+    margin-top: 15px;
     width: 100%;
     color: var(--white);
 }

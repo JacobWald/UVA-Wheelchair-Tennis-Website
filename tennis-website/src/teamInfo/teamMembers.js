@@ -15,7 +15,7 @@ export const teamMembers = [
     {
         name: 'Brian Douglas',
         major: 'Kinesiology',
-        description: 'Brian is a third year....',
+        description: 'Brian is a third year Kinesiology major from Orlando, Florida. As a former para swimming national champion he has been participating in adaptive sports for quite some time. He started playing wheelchair tennis in his second year at UVA and it has allowed him to take part in para sports at the collegiate level. Brian had found great amounts of satisfaction and fulfillment in taking on the challenge of a new sport like wheelchair tennis. ',
         imageUrl: '/images/meetTeam/brian.jpg',
     },
     {
