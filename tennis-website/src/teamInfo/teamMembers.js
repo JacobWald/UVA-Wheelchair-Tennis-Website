@@ -27,7 +27,7 @@ export const teamMembers = [
     {
         name: 'Catherine DeSouza (Cat)',
         major: 'Coach',
-        description: 'Cat has been with the UVA Wheelchair tennis team since its foundation....',
+        description: 'Cat has been with the UVA Wheelchair tennis team since its foundation. She has been coaching tennis for the last 20 years and her dedication to the development of the team has been instrumental in its success.',
         imageUrl: '/images/meetTeam/cat.jpg',
     }
 ];
