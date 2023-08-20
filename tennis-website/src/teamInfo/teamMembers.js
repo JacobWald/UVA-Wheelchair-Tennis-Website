@@ -2,7 +2,7 @@ export const teamMembers = [
     {
         name: 'Mason McGrady',
         major: 'Global Health Studies',
-        description: 'Mason is a fourth year....',
+        description: 'Mason is a fourth year majoring in Global Public Health from Callaway, Virginia. Mason started playing wheelchair basketball in his first year at college and has since picked up wheelchair tennis, starting the wheelchair tennis team in 2021. Since then, his love for tennis has grown and become an obsession.',
         imageUrl: '/images/meetTeam/mason.jpg',
     },
     //Finish this object with the rest of the team members, Jacob Wald, Brian Douglas, and Joseph Camano
