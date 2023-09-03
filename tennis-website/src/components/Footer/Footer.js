@@ -6,7 +6,6 @@ export default function Footer() {
             <img src="./images/sabers.svg" alt="UVA Sabers SVG" className="sabers-logo"/>
             <div>
                 <p>vug5ue@virginia.edu</p>
-                <p>© 2023 UVA Adaptive Athletics</p>
             </div>
         </div>
     );
