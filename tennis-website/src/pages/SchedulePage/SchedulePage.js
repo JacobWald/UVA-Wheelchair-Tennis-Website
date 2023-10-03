@@ -97,6 +97,7 @@ export default function SchedulePage() {
                             <Typography variant="body1" className='info'>Location: {tournament.location}</Typography>
                             <Typography variant="body1" className='info'>Tournament Director: {tournament.director}</Typography>
                             <Typography variant="body1" className='info'>{tournament.level}</Typography>
+                            <Typography variant="body1" className='info'>Status: {tournament.complete ? "Complete" : "Upcoming"}</Typography>
                         </Paper>
                         </Grid>
                     ))}

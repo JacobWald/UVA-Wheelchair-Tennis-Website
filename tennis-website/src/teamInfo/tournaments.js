@@ -7,6 +7,7 @@ export const tournaments = [
         level: 'USTA Level 4 / ITF Level N/A',
         month: 'September',
         going: false,
+        complete: true,
     },
     {
         name: 'Lost Mountain Wheelchair Championships',
@@ -16,6 +17,7 @@ export const tournaments = [
         level: 'USTA Level 3 / ITF Level N/A',
         month: 'September',
         going: true,
+        complete: true,
     },
     {
         name: 'JTCC Wheelchair Championships',
@@ -25,6 +27,7 @@ export const tournaments = [
         level: 'USTA Level 4 / ITF Level N/A',
         month: 'October',
         going: true,
+        complete: false,
     },
     {
         name: 'America Championships (Adult National Championships)',
@@ -34,6 +37,7 @@ export const tournaments = [
         level: 'USTA Level 1 / ITF Level N/A',
         month: 'November',
         going: true,
+        complete: false,
     },
     {
         name: 'The Piedmont Area Tennis Association Wheelchair Tennis Open',
@@ -43,5 +47,6 @@ export const tournaments = [
         level: 'USTA Level 3 / ITF Level N/A',
         month: 'December',
         going: true,
+        complete: false,
     }
 ];
