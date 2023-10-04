@@ -14,5 +14,15 @@ export const accomplishments = [
         name: 'Rivercity Slam Doubles Victory',
         image: 'images/accomplishmentsPage/CDoublesFirst.jpg',
         description: 'At the Rivercity Slam tournament in June of 2023, Jacob Wald teamed up with Clemson player Mckenna Woodhead to take home first place in C\'s doubles. The pair went 2-0 over the competition, winning the title without dropping a single set. Congratulations to Jacob and Mckenna on their victory!'
+    },
+    {
+        name: 'Lost Mountain C Doubles Champion',
+        image: 'images/accomplishmentsPage/JosephCDoubles.jpg',
+        description: 'Joseph Camano won his first official USTA title at the Lost Mountain Wheelchair Championships in September of 2023. Camano exhibited great teamwork, pairing up with a random player to achieve this victory. Congratulations to Joseph!'
+    },
+    {
+        name: 'Lost Mountain B Doubles Finalist',
+        image: 'images/accomplishmentsPage/BDoublesFinalist.jpg',
+        description: 'Jacob Wald teamed up with University of Houston\'s Nicik Tijerina to take second place in B doubles at the Lost Mountain Wheelchair Championships in September of 2023. The pair dominated in their first two matches on the way to the finals. Congratulations to Jacob and Nick!'
     }
 ];
