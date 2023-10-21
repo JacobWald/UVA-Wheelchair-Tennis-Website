@@ -15,21 +15,28 @@ export default function HomePage() {
   ];
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  const [intervalId, setIntervalId] = useState(null);
 
   useEffect(() => {
     const switchToNextImage = () => {
       setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
     };
 
-    const intervalId = setInterval(switchToNextImage, 5000);
+    const newIntervalId = setInterval(switchToNextImage, 5000);
+    setIntervalId(newIntervalId);
 
     return () => {
-      clearInterval(intervalId);
+      clearInterval(newIntervalId);
     };
   }, [images.length]);
 
   const goToImage = (index) => {
     setCurrentImageIndex(index);
+    clearInterval(intervalId);
+    const newIntervalId = setInterval(() => {
+      setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
+    }, 5000);
+    setIntervalId(newIntervalId);
   };
 
   return (

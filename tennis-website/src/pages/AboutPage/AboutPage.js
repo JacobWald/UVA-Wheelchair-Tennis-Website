@@ -5,7 +5,7 @@ export default function AboutPage() {
     return (
         <>
             <div className='about-page'>
-                <h1>About</h1>
+                <h1>About Us</h1>
             </div>
             <div className="links">
                 <a href="https://www.instagram.com/uva_wheelchair_tennis/" class="button-link" target="_blank" rel="noopener noreferrer">
@@ -32,7 +32,7 @@ export default function AboutPage() {
             </div>
             <div className='the-need'>
                 <div className='left-image'>
-                    <img src='/images/aboutPage/josephMasonJacobRyan.jpg' alt='Joseph, Mason, Jacob, and Ryan' />
+                    <img src='/images/aboutPage/fullTeam2.jpg' alt='Joseph, Mason, Jacob, and Ryan' />
                 </div>
                 <div className='right-text'>
                     <h1>The Need</h1>

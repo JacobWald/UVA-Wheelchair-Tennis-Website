@@ -27,7 +27,7 @@ export const tournaments = [
         level: 'USTA Level 4 / ITF Level N/A',
         month: 'October',
         going: true,
-        complete: false,
+        complete: true,
     },
     {
         name: 'America Championships (Adult National Championships)',
@@ -44,7 +44,7 @@ export const tournaments = [
         date: 'Dec. 15-17',
         location: 'Charlottesville, VA',
         director: 'Catherine DeSouza',
-        level: 'USTA Level 3 / ITF Level N/A',
+        level: 'USTA Level 4 / ITF Level N/A',
         month: 'December',
         going: true,
         complete: false,

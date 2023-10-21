@@ -22,7 +22,7 @@ export const teamMembers = [
         name: 'Joseph Camano',
         major: 'Law',
         description: 'Joseph is a third year law school student from Virginia Beach, Virginia. As former sled hockey, quad rugby, and wheelchair basketball athlete he has participated in adaptive sports for over twenty years. He began playing wheelchair tennis and joined the team at the beginning of his second year at the law school. Wheelchair tennis allows Joseph to stay connected with the adaptive sports community and provides him the opportunity to compete at the collegiate level. ',
-        imageUrl: '/images/meetTeam/joseph.jpg',
+        imageUrl: '/images/meetTeam/joseph.jpeg',
     },
     {
         name: 'Catherine DeSouza (Cat)',
