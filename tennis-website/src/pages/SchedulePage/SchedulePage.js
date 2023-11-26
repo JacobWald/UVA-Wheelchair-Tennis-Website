@@ -19,7 +19,7 @@ export default function SchedulePage() {
     const [search, setSearch] = useState("");
     const [filteredTournaments, setFilteredTournaments] = useState(tournaments);
 
-    const terms = ["All", "September", "October", "November", "December"];
+    const terms = ["All", "September", "October", "November", "December", "January", "February", "March", "April"];
 
     function handleSearch(event) {
         setSearch(event.target.value);
@@ -39,7 +39,7 @@ export default function SchedulePage() {
     return (
         <>
             <div className='schedule-page'>
-                <h1>Fall 2023 Tournament Schedule</h1>
+                <h1>2023-2024 Academic Year Tournament Schedule</h1>
             </div>
             <div className="search-bar">
                 <SearchIcon sx={{ marginRight: "5px", fontSize: 40, color: "var(--uva-dark-blue)" }}></SearchIcon>

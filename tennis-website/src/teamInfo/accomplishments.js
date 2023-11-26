@@ -24,5 +24,10 @@ export const accomplishments = [
         name: 'Lost Mountain B Doubles Finalist',
         image: 'images/accomplishmentsPage/BDoublesFinalist.jpg',
         description: 'Jacob Wald teamed up with University of Houston\'s Nicik Tijerina to take second place in B doubles at the Lost Mountain Wheelchair Championships in September of 2023. The pair dominated in their first two matches on the way to the finals. Congratulations to Jacob and Nick!'
+    },
+    {
+        name: 'National Championship B Singles Finalist',
+        image: 'images/accomplishmentsPage/NationalChampionshipFinalist.jpg',
+        description: 'In November, Jacob Wald made it to the finals for the national championship title in B singles. He did not drop a single set in his 4 matches on his way to the finals, finally suffering a tough loss (2-6, 3-6) in the finals. The future for UVA Wheelchair Tennis is bright!'
     }
 ];
