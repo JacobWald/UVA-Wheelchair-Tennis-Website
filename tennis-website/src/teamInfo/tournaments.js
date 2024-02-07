@@ -47,7 +47,7 @@ export const tournaments = [
         level: 'USTA Level 4 / ITF Level N/A',
         month: 'December',
         going: true,
-        complete: false,
+        complete: true,
     },
     {
         name: '2024 Arizona Open Wheelchair',
@@ -57,7 +57,7 @@ export const tournaments = [
         level: 'USTA Level 3 / ITF Level N/A',
         month: 'January',
         going: true,
-        complete: false, 
+        complete: true, 
     },
     {
         name: 'Cajun Classic USTA',
