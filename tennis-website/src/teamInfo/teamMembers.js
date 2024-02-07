@@ -1,11 +1,10 @@
 export const teamMembers = [
-    {
-        name: 'Mason McGrady',
-        major: 'Global Health Studies',
-        description: 'Mason is a fourth year majoring in Global Public Health from Callaway, Virginia. Mason started playing wheelchair basketball in his first year at college and has since picked up wheelchair tennis, starting the wheelchair tennis team in 2021. Since then, his love for tennis has grown and become an obsession.',
-        imageUrl: '/images/meetTeam/mason.jpg',
-    },
-    //Finish this object with the rest of the team members, Jacob Wald, Brian Douglas, and Joseph Camano
+    // {
+    //     name: 'Mason McGrady',
+    //     major: 'Global Health Studies',
+    //     description: 'Mason is a fourth year majoring in Global Public Health from Callaway, Virginia. Mason started playing wheelchair basketball in his first year at college and has since picked up wheelchair tennis, starting the wheelchair tennis team in 2021. Since then, his love for tennis has grown and become an obsession.',
+    //     imageUrl: '/images/meetTeam/mason.jpg',
+    // },
     {
         name: 'Jacob Wald',
         major: 'Computer Science',
@@ -24,10 +23,10 @@ export const teamMembers = [
         description: 'Joseph is a third year law school student from Virginia Beach, Virginia. As former sled hockey, quad rugby, and wheelchair basketball athlete he has participated in adaptive sports for over twenty years. He began playing wheelchair tennis and joined the team at the beginning of his second year at the law school. Wheelchair tennis allows Joseph to stay connected with the adaptive sports community and provides him the opportunity to compete at the collegiate level. ',
         imageUrl: '/images/meetTeam/joseph.jpeg',
     },
-    {
-        name: 'Catherine DeSouza (Cat)',
-        major: 'Coach',
-        description: 'Cat has been with the UVA Wheelchair tennis team since its foundation. She has been coaching tennis for the last 20 years and her dedication to the development of the team has been instrumental in its success.',
-        imageUrl: '/images/meetTeam/cat.jpg',
-    }
+    // {
+    //     name: 'Catherine DeSouza (Cat)',
+    //     major: 'Coach',
+    //     description: 'Cat has been with the UVA Wheelchair tennis team since its foundation. She has been coaching tennis for the last 20 years and her dedication to the development of the team has been instrumental in its success.',
+    //     imageUrl: '/images/meetTeam/cat.jpg',
+    // }
 ];

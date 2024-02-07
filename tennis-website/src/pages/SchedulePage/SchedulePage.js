@@ -19,7 +19,7 @@ export default function SchedulePage() {
     const [search, setSearch] = useState("");
     const [filteredTournaments, setFilteredTournaments] = useState(tournaments);
 
-    const terms = ["All", "September", "October", "November", "December", "January", "February", "March", "April"];
+    const terms = ["All", "Upcoming", "September", "October", "November", "December", "January", "February", "March", "April"];
 
     function handleSearch(event) {
         setSearch(event.target.value);
@@ -27,11 +27,18 @@ export default function SchedulePage() {
 
     useEffect(() => {
         const filtered = tournaments.filter((tournament) => {
-            return (
-                (term === "All" || tournament.month === term) &&
-                tournament.name.toLowerCase().includes(search.toLowerCase()) &&
-                tournament.going
-            );
+            if (term === "Upcoming") {
+                return (
+                    tournament.name.toLowerCase().includes(search.toLowerCase()) &&
+                    tournament.going &&
+                    !tournament.complete
+                );
+            } else if (term === "All" || tournament.month === term) {
+                return (
+                    tournament.name.toLowerCase().includes(search.toLowerCase()) &&
+                    tournament.going
+                );
+            }
         });
         setFilteredTournaments(filtered);
     }, [term, search]);

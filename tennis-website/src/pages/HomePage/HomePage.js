@@ -49,9 +49,9 @@ export default function HomePage() {
               <img src="./images/instagram.svg" alt="Instagram SVG" className="icon-home"/>
               Instagram
           </a>
-          <a href="https://www.gofundme.com/f/the-wheelchair-tennis-team-at-uva?utm_medium=referral&utm_source=widget&utm_campaign=p_cp%2Bshare-sheet" class="button-link-home" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.givecampus.com/campaigns/21200/donations/new?designation=wheelchairtennisteamatuva" class="button-link-home" target="_blank" rel="noopener noreferrer">
               {/* <img src="./images/sabers.svg" alt="GoFundMe SVG" className="icon"/> */}
-              GoFundMe
+              Donations
           </a>
           <a href="mailto:vug5ue@virginia.edu" class="button-link-home">
               <img src="./images/mail.svg" alt="Mail SVG" className="icon-home" style={{ filter: "invert(1)" }}/>
