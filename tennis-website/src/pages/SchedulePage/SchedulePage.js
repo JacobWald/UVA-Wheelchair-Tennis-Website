@@ -38,7 +38,8 @@ export default function SchedulePage() {
                     tournament.name.toLowerCase().includes(search.toLowerCase()) &&
                     tournament.going
                 );
-            }
+            } else return false;
+
         });
         setFilteredTournaments(filtered);
     }, [term, search]);
