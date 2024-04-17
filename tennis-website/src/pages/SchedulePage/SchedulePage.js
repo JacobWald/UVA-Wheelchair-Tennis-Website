@@ -85,30 +85,38 @@ export default function SchedulePage() {
             </div>
             <Container maxWidth="fullWidth">
                 <Grid container spacing={3} justifyContent="left" marg>
-                    {filteredTournaments.map((tournament) => (
-                        <Grid key={tournament.name} item xs={12} sm={6} md={4}>
-                        <Paper
-                            elevation={0}
-                            sx={{
-                            padding: 3,
-                            textAlign: 'left',
-                            marginBottom: 4,
-                            color: 'var(--white)',
-                            backgroundColor: 'var(--uva-dark-blue)',
-                            border: '5px solid var(--uva-orange)'
-                            }}
-                        >
-                            <Typography variant="h5" gutterBottom>
-                            {tournament.name}
+                    {filteredTournaments.length === 0 ? (
+                        <Grid item xs={12}>
+                            <Typography variant="h5" gutterBottom sx={{ textAlign: 'center' }}>
+                                No tournaments found
                             </Typography>
-                            <Typography variant="body1" className='info'>Dates: {tournament.date}</Typography>
-                            <Typography variant="body1" className='info'>Location: {tournament.location}</Typography>
-                            <Typography variant="body1" className='info'>Tournament Director: {tournament.director}</Typography>
-                            <Typography variant="body1" className='info'>{tournament.level}</Typography>
-                            <Typography variant="body1" className='info'>Status: {tournament.complete ? "Complete" : "Upcoming"}</Typography>
-                        </Paper>
-                        </Grid>
-                    ))}
+                    </Grid>
+                        )   :   ( 
+                        filteredTournaments.map((tournament) => (
+                            <Grid key={tournament.name} item xs={12} sm={6} md={4}>
+                            <Paper
+                                elevation={0}
+                                sx={{
+                                padding: 3,
+                                textAlign: 'left',
+                                marginBottom: 4,
+                                color: 'var(--white)',
+                                backgroundColor: 'var(--uva-dark-blue)',
+                                border: '5px solid var(--uva-orange)'
+                                }}
+                            >
+                                <Typography variant="h5" gutterBottom>
+                                {tournament.name}
+                                </Typography>
+                                <Typography variant="body1" className='info'>Dates: {tournament.date}</Typography>
+                                <Typography variant="body1" className='info'>Location: {tournament.location}</Typography>
+                                <Typography variant="body1" className='info'>Tournament Director: {tournament.director}</Typography>
+                                <Typography variant="body1" className='info'>{tournament.level}</Typography>
+                                <Typography variant="body1" className='info'>Status: {tournament.complete ? "Complete" : "Upcoming"}</Typography>
+                            </Paper>
+                            </Grid>
+                        ))
+                    )}
                 </Grid>
             </Container>
         </>
