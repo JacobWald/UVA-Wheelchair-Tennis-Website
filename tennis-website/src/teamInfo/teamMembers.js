@@ -1,10 +1,10 @@
 export const teamMembers = [
-    // {
-    //     name: 'Mason McGrady',
-    //     major: 'Global Health Studies',
-    //     description: 'Mason is a fourth year majoring in Global Public Health from Callaway, Virginia. Mason started playing wheelchair basketball in his first year at college and has since picked up wheelchair tennis, starting the wheelchair tennis team in 2021. Since then, his love for tennis has grown and become an obsession.',
-    //     imageUrl: '/images/meetTeam/mason.jpg',
-    // },
+    {
+        name: 'Joseph Camano',
+        major: 'Law',
+        description: 'Joseph is a third year law school student from Virginia Beach, Virginia. As former sled hockey, quad rugby, and wheelchair basketball athlete he has participated in adaptive sports for over twenty years. He began playing wheelchair tennis and joined the team at the beginning of his second year at the law school. Wheelchair tennis allows Joseph to stay connected with the adaptive sports community and provides him the opportunity to compete at the collegiate level. ',
+        imageUrl: '/images/meetTeam/joseph.jpeg',
+    },
     {
         name: 'Jacob Wald',
         major: 'Computer Science',
@@ -18,10 +18,10 @@ export const teamMembers = [
         imageUrl: '/images/meetTeam/brian.jpg',
     },
     {
-        name: 'Joseph Camano',
-        major: 'Law',
-        description: 'Joseph is a third year law school student from Virginia Beach, Virginia. As former sled hockey, quad rugby, and wheelchair basketball athlete he has participated in adaptive sports for over twenty years. He began playing wheelchair tennis and joined the team at the beginning of his second year at the law school. Wheelchair tennis allows Joseph to stay connected with the adaptive sports community and provides him the opportunity to compete at the collegiate level. ',
-        imageUrl: '/images/meetTeam/joseph.jpeg',
+        name: 'Mason McGrady',
+        major: 'Global Health Studies',
+        description: 'Mason is a fourth year majoring in Global Public Health from Callaway, Virginia. Mason started playing wheelchair basketball in his first year at college and has since picked up wheelchair tennis, starting the wheelchair tennis team in 2021. Since then, his love for tennis has grown and become an obsession.',
+        imageUrl: '/images/meetTeam/mason.jpg',
     },
     // {
     //     name: 'Catherine DeSouza (Cat)',

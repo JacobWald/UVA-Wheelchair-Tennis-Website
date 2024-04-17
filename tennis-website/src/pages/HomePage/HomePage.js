@@ -11,6 +11,7 @@ export default function HomePage() {
     "./images/homePage/josephScott.jpg",
     "./images/homePage/brianJosephJacobNationals.jpg",
     "./images/homePage/vtech.jpg",
+    "./images/homePage/2024JacobBrianNats.jpg",
 
   ];
 

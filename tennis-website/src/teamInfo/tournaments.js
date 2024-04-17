@@ -67,7 +67,7 @@ export const tournaments = [
         level: 'USTA Level 1 / ITF Level 1',
         month: 'March',
         going: true,
-        complete: false, 
+        complete: true, 
     },
     {
         name: '2024 Collegiate Wheelchair National Championship',
@@ -77,6 +77,6 @@ export const tournaments = [
         level: 'USTA Level N/A / ITF Level N/A',
         month: 'April',
         going: true,
-        complete: false, 
+        complete: true, 
     }
 ];
