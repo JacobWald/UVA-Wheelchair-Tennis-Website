@@ -12,7 +12,7 @@ export default function MeetTheTeamPage() {
       </div>
       <Container maxWidth="lg" sx={{ paddingTop: 4, paddingBottom: 4 }}>
         <Grid container spacing={3} justifyContent="center">
-          {teamMembers.map((teamMember) => (
+          {teamMembers.map((teamMember) => teamMember.display ? (
             <Grid key={teamMember.name} item xs={12} sm={6} md={4}>
               <Paper
                 elevation={0}
@@ -50,7 +50,7 @@ export default function MeetTheTeamPage() {
                 <Typography variant="body1" className='info'>{teamMember.description}</Typography>
               </Paper>
             </Grid>
-          ))}
+          ) : null)}
         </Grid>
       </Container>
     </>

@@ -33,6 +33,13 @@ export const accomplishments = [
     {
         name: 'Collegiate B Champion',
         image: 'images/accomplishmentsPage/2024BChamp.jpg',
-        description: 'In April of 2024, Jacob Wald took home the 2024 USTA Collegiate Wheelchair Tennis B Singles Championship. Wald went 4-0 over the competition en route to his championship, defeating 3 students from Auburn and 1 from Alabama. Congratulations to Jacob on his second national title!'
+        description: 'In April of 2024, Jacob Wald took home the 2024 USTA Collegiate Wheelchair Tennis B Singles Championship. Wald went 4-0 over the competition en route to his championship, defeating 3 students from Auburn and 1 from Alabama. Congratulations to Jacob on his second national title!',
+        article: 'https://wearecollegetennis.com/2024/04/14/champions-crowned-at-2024-ita-national-wheelchair-tennis-championships/'
+    },
+    {
+        name: 'Rivercity Slam B & C Singles & Doubles Champion',
+        image: 'images/accomplishmentsPage/JacobJosephRivercitySlam2024.jpg',
+        description: 'In June of 2024, Jacob Wald and Joseph Camano both took home titles at the Rivercity Slam tournament. Jacob won the B singles and doubles title, going 7-0 over the competition, while Joseph won the C singles and doubles title, going 5-0 over the competition. Congratulations to both players on their victories!'
     }
+
 ];
