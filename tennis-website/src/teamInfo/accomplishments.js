@@ -40,6 +40,11 @@ export const accomplishments = [
         name: 'Rivercity Slam B & C Singles & Doubles Champion',
         image: 'images/accomplishmentsPage/JacobJosephRivercitySlam2024.jpg',
         description: 'In June of 2024, Jacob Wald and Joseph Camano both took home titles at the Rivercity Slam tournament. Jacob won the B singles and doubles title, going 7-0 over the competition, while Joseph won the C singles and doubles title, going 5-0 over the competition. Congratulations to both players on their victories!'
+    },
+    {
+        name: 'JTCC Wheelchair Championships C Singles Champion',
+        image: 'images/accomplishmentsPage/JTCC2024CChampion.jpg',
+        description: 'In September of 2024 at JTCC, Brian Douglas won his first ever tournament, taking home the C singles title at the JTCC Wheelchair Championships. Douglas went 3-0 over the competition, winning all matches in straight sets. Congratulations to Brian on his first national title!'
     }
 
 ];
