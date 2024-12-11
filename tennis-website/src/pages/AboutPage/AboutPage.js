@@ -32,11 +32,20 @@ export default function AboutPage() {
             </div>
             <div className='the-need'>
                 <div className='left-image'>
-                    <img src='/images/aboutPage/fullTeam2.jpg' alt='Joseph, Mason, Jacob, and Ryan' />
+                    <img src='/images/aboutPage/fullTeam2.jpg' alt='Joseph, Mason, Jacob, and Brian' />
                 </div>
                 <div className='right-text'>
                     <h1>The Need</h1>
                     <p className="info">{text.theNeed}</p>
+                </div>
+            </div>
+            <div className='pedigree'>
+                <div className='left-text'>
+                    <h1>Pedigree</h1>
+                    <p className="info">{text.pedigree}</p>
+                </div>
+                <div className='right-image'>
+                    <img src='/images/aboutPage/ITARank.jpg' alt='Jacob, and Brian' />
                 </div>
             </div>
         </>

@@ -17,7 +17,7 @@ export const tournaments = [
         level: 'USTA Level 2',
         month: ['October'],
         going: true,
-        complete: false,
+        complete: true,
     },
     {
         name: 'ITA Qualifiers',
@@ -27,7 +27,7 @@ export const tournaments = [
         level: 'ITA Event',
         month: ['November'],
         going: true,
-        complete: false,
+        complete: true,
     },
     {
         name: 'Wolverine Open',
@@ -37,7 +37,7 @@ export const tournaments = [
         level: 'ITA Event',
         month: ['November'],
         going: true,
-        complete: false,
+        complete: true,
     },
     {
         name: 'Piedmont Area Tennis Association Wheelchair Open',

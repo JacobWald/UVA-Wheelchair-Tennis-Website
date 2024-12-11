@@ -45,6 +45,16 @@ export const accomplishments = [
         name: 'JTCC Wheelchair Championships C Singles Champion',
         image: 'images/accomplishmentsPage/JTCC2024CChampion.jpg',
         description: 'In September of 2024 at JTCC, Brian Douglas won his first ever tournament, taking home the C singles title at the JTCC Wheelchair Championships. Douglas went 3-0 over the competition, winning all matches in straight sets. Congratulations to Brian on his first national title!'
+    },
+    {
+        name: 'Wheelchair Championships at Kennworth A Singles Champion',
+        image: 'images/accomplishmentsPage/JacobASingles.JPEG',
+        description: 'In October of 2024 at JTCC, Jacob Wald won the A singles title. Wald went 3-0 over the competition, winning in the finals 6-3 3-6 [10-6]. Congratulations to Jacob on his great showing!'
+    },
+    {
+        name: 'Wolverine Open Runner Up',
+        image: 'images/accomplishmentsPage/WolverineOpen2nd.JPEG',
+        description: 'At UVA\'s first ever ITA team competition, the Wolverine Open, Jacob Wald & Brian Douglas represented UVA well, placing 2nd in a draw of 6 teams. UVA beat Michigan, Michigan State, Cincinnati, and Auburn to secure 2nd place, losing only to Alabama. Congratulations to Jacob & Brain!'
     }
 
 ];
