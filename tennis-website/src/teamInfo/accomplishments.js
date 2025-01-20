@@ -55,6 +55,16 @@ export const accomplishments = [
         name: 'Wolverine Open Runner Up',
         image: 'images/accomplishmentsPage/WolverineOpen2nd.JPEG',
         description: 'At UVA\'s first ever ITA team competition, the Wolverine Open, Jacob Wald & Brian Douglas represented UVA well, placing 2nd in a draw of 6 teams. UVA beat Michigan, Michigan State, Cincinnati, and Auburn to secure 2nd place, losing only to Alabama. Congratulations to Jacob & Brain!'
-    }
+    },
+    {
+        name: 'Piedmont Area Tennis Association Wheelchair Open Singles Champion',
+        image: 'images/accomplishmentsPage/JacobASinglesCharlottesville.jpg',
+        description: 'In December of 2024, Jacob Wald won the Piedmont Area Tennis Association Wheelchair Open. Wald went 2-0 over the competition with a QF bye, winning all matches in straight sets. Congratulations to Jacob on his great showing!'
+    },
+    {
+        name: 'Piedmont Area Tennis Association Wheelchair Open Doubles Champion',
+        image: 'images/accomplishmentsPage/JacobADoublesCharlottesville.jpg',
+        description: 'In December of 2024, Jacob Wald along with Zane Goodwin won the Piedmont Area Tennis Association Wheelchair Open. Wald & Goodwin won their championship match in a tough 3rd set tiebreak. Congratulations to Jacob on his great showing!'
+    },
 
 ];
