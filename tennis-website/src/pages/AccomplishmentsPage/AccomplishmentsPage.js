@@ -7,7 +7,7 @@ export default function AccomplishmentsPage() {
             <div className='accomplishments-page'>
                 <h1>Accomplishments Page</h1>
             </div>
-                {accomplishments.map((accomplishment) => 
+                {accomplishments.slice().reverse().map((accomplishment) => 
                     <div class="accomplishment">
                         <img src={accomplishment.image} alt="All American" />
                         <div class="accomplishment-details">
